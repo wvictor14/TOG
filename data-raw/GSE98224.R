@@ -60,7 +60,7 @@ GSE98224_pDat <- GSE98224_pDat %>% left_join(GSE98224_dnam, by = c('meth_geo_id'
   dplyr::rename(expr_geo_id = geo_accession) %>%
   select(expr_geo_id, meth_geo_id, everything()) 
 
-write.csv(GSE98224_pDat,'../data/GSE98224.csv')
+write.csv(GSE98224_pDat,'../data/GSE98224.csv', row.names = F)
 
 #---------------------------------------------------------------------------------------------------
 #get annotation, not used yet
