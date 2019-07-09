@@ -1,0 +1,6 @@
+---
+title: "README"
+output: github_document
+---
+
+This repository contains my lessons for the TOG R study group
